@@ -156,7 +156,7 @@ class _EventCreateState extends State<EventCreate> {
             child: OutlinedButton(
               style: OutlinedButton.styleFrom(
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(1), // Adjust the border radius as needed
+                  borderRadius: BorderRadius.circular(1),
                 ),
               ),
               child: Text(formatDate(date)),
@@ -180,7 +180,7 @@ class _EventCreateState extends State<EventCreate> {
             child: OutlinedButton(
               style: OutlinedButton.styleFrom(
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(1), // Adjust the border radius as needed
+                  borderRadius: BorderRadius.circular(1),
                 ),
               ),
               child: Text(formatTime2(time)),
